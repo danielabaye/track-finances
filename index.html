@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Finances</title>
+    <meta name="Description" content="Website that helps manage personal finances">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="budget.html">Budget</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>TRACK YOUR FINANCES!</h1>
+            <p>
+                <form id="expense-form">
+                <label for="expense-amount">Expense Amount:</label>
+                <input type="number" id="expense-amount" placeholder="Enter expense amount" required>
+                <button type="submit">Add Expense</button>
+            </form>
+        
+            <form id="income-form">
+                <label for="income-amount">Income Amount:</label>
+                <input type="number" id="income-amount" placeholder="Enter income amount" required>
+                <button type="submit">Add Income</button>
+            </form>
+        
+            <section id="summary">
+                <p>Total  Expenses: $0.00</p>
+                <p>Total Income: $0.00</p>
+                <p>Balance: $0.00</p>
+            </section>
+            <script src="script.js"></script>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
